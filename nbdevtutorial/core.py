@@ -16,7 +16,7 @@ def factorial(n):
 
 # Cell
 class DoStuff:
-    "Say hello and do some factorials"
+    "Say hello via `say`and do some factorials `get_fact`"
     def __init__(self, to, val):
         self.to = to
         self.val = val

@@ -32,6 +32,23 @@ nb_path: "00_core.ipynb"
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">load_ext</span> autoreload
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
 
 <div class="output_wrapper">
 <div class="output">
@@ -205,7 +222,7 @@ nb_path: "00_core.ipynb"
 <div class="output_markdown rendered_html output_subarea ">
 <h2 id="DoStuff" class="doc_header"><code>class</code> <code>DoStuff</code><a href="https://github.com/vedaustin/nbdevtutorial/tree/master/nbdevtutorial/core.py#L18" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>DoStuff</code>(<strong><code>to</code></strong>, <strong><code>val</code></strong>)</p>
 </blockquote>
-<p>Say hello and do some factorials</p>
+<p>Say hello via <code>say</code>and do some factorials <code>get_fact</code></p>
 
 </div>
 
@@ -220,6 +237,99 @@ nb_path: "00_core.ipynb"
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="DoStuff.say" class="doc_header"><code>DoStuff.say</code><a href="https://github.com/vedaustin/nbdevtutorial/tree/master/nbdevtutorial/core.py#L24" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>DoStuff.say</code>()</p>
+</blockquote>
+<p>Say something</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="DoStuff.get_fact" class="doc_header"><code>DoStuff.get_fact</code><a href="https://github.com/vedaustin/nbdevtutorial/tree/master/nbdevtutorial/core.py#L27" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>DoStuff.get_fact</code>()</p>
+</blockquote>
+<p>Get factorial</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">o</span> <span class="o">=</span> <span class="n">DoStuff</span><span class="p">(</span><span class="s2">&quot;Ram&quot;</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">o</span><span class="o">.</span><span class="n">say</span><span class="p">())</span>
+<span class="n">o</span><span class="o">.</span><span class="n">get_fact</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Hello Ram
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>6</pre>
+</div>
+
+</div>
+
+</div>
+</div>
 
 </div>
     {% endraw %}
